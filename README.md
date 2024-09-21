@@ -1,7 +1,5 @@
 # AndroidPrep
 
-# Android Interview questions
-
 Topics:
 
 - [ ]  SOLID Principles with examples
