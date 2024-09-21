@@ -2,7 +2,6 @@
 
 Topics:
 
-[] SOLID
 
 - [ ]  SOLID Principles with examples
 - [ ]  KISS & DRY principles
@@ -34,26 +33,26 @@ Topics:
 - [ ]  Fragment lifecycle
     - [ ]  Scenario based lifecycle (https://github.com/anandwana001/android-interview?tab=readme-ov-file#lifecycle)
 - [ ]  Android version changes
-- [x]  Tasks, backstack & launch modes
-    - [x]  Standard
-    - [x]  SingleTop
-    - [x]  SingleTask
-    - [x]  SingleInstance
-- [x]  viewmodel
-    - [x]  Viewmodel Providers
-    - [x]  configuration changes
-    - [x]  viewmodel internal working
-    - [x]  ViewModelFactory
-    - [x]  where does viewmodel stores data during orientation changes
-- [x]  How to Support ALL Screen Sizes on Android? (https://www.youtube.com/watch?v=5lSQcJjZPFs)
-- [x]  How to reduce size of App?
-    - [x]  Benifits?
+- [ ]  Tasks, backstack & launch modes
+    - [ ]  Standard
+    - [ ]  SingleTop
+    - [ ]  SingleTask
+    - [ ]  SingleInstance
+- [ ]  viewmodel
+    - [ ]  Viewmodel Providers
+    - [ ]  configuration changes
+    - [ ]  viewmodel internal working
+    - [ ]  ViewModelFactory
+    - [ ]  where does viewmodel stores data during orientation changes
+- [ ]  How to Support ALL Screen Sizes on Android? (https://www.youtube.com/watch?v=5lSQcJjZPFs)
+- [ ]  How to reduce size of App?
+    - [ ]  Benifits?
     - Shrink, Optimize and Secure Your App With R8 & ProGuard (https://www.youtube.com/watch?v=bgpyuuzMlo0)
-- [x]  Why Do We Test Our Code? (https://www.youtube.com/watch?v=EkfVL5vCDmo&t=112s)
-- [x]  Context
+- [ ]  Why Do We Test Our Code? (https://www.youtube.com/watch?v=EkfVL5vCDmo&t=112s)
+- [ ]  Context
     - Activity Context
     - Application context
-- [x]  Parcelable vs serializable
+- [ ]  Parcelable vs serializable
 - [ ]  Apk vs App bundle
 - [ ]  Intent
     - [ ]  Intent & intent filters
