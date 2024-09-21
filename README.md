@@ -2,6 +2,8 @@
 
 Topics:
 
+[] SOLID
+
 - [ ]  SOLID Principles with examples
 - [ ]  KISS & DRY principles
 - [ ]  Agile methodology
@@ -25,12 +27,12 @@ Topics:
     - [ ]  internal working of List
     - [ ]  List vs array
     - [ ]  mutable vs immutable
-- [x]  Multithreading
-- [x]  Activity lifecycle
-    - [x]  Performance enhancement to not destroy 1st activity from android 12
-    - [x]  Scenario based lifecycle (https://github.com/anandwana001/android-interview?tab=readme-ov-file#lifecycle)
-- [x]  Fragment lifecycle
-    - [x]  Scenario based lifecycle (https://github.com/anandwana001/android-interview?tab=readme-ov-file#lifecycle)
+- [ ]  Multithreading
+- [ ]  Activity lifecycle
+    - [ ]  Performance enhancement to not destroy 1st activity from android 12
+    - [ ]  Scenario based lifecycle (https://github.com/anandwana001/android-interview?tab=readme-ov-file#lifecycle)
+- [ ]  Fragment lifecycle
+    - [ ]  Scenario based lifecycle (https://github.com/anandwana001/android-interview?tab=readme-ov-file#lifecycle)
 - [ ]  Android version changes
 - [x]  Tasks, backstack & launch modes
     - [x]  Standard
