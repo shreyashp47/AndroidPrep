@@ -3,6 +3,10 @@
 Topics:
 
 
+### Android
+### Kotlin
+### Java
+
 - [ ]  SOLID Principles with examples
 - [ ]  KISS & DRY principles
 - [ ]  Agile methodology
