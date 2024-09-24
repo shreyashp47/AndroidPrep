@@ -386,7 +386,6 @@ Thanks to https://github.com/AkshayAshokCode
 - ### How does memory is managed in the OS?
   <details>
     <summary>Click for Answer:</summary>
- 
   In Android, **memory management** is handled primarily through **automatic memory allocation** and **Garbage Collection (GC)**. Key components and techniques for memory management include:
 
 1. **Garbage Collection (GC)**:
