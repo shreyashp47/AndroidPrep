@@ -1,6 +1,5 @@
-# AndroidPrep (WIP)
-
-Thanks to https://github.com/AkshayAshokCode
+# Android-Interview-Questions-cheat-sheet (WIP)
+Note: I'm currently preparing this repo, and I'll restructure it once I have done with basic preperation
 
 ## Content:
 - SOLID principle
@@ -386,28 +385,17 @@ Thanks to https://github.com/AkshayAshokCode
 - ### How does memory is managed in the OS?
   <details>
     <summary>Click for Answer:</summary>
-  In Android, **memory management** is handled primarily through **automatic memory allocation** and **Garbage Collection (GC)**. Key components and techniques for memory management include:
-
-1. **Garbage Collection (GC)**:
-   - Android uses **Garbage Collectors** (GC) to automatically reclaim memory by removing objects that are no longer referenced or used.
-   - In **ART**, the GC is optimized to reduce app pauses and manage memory more efficiently.
-
-2. **Memory Allocation**:
-   - Each app runs in its **own process** with a dedicated amount of memory (determined by the device's configuration).
-   - The Android system allocates memory to apps as needed, but imposes a **limit** to prevent any single app from consuming too much memory.
-
-3. **Memory Leaks** Prevention:
-   - Developers are encouraged to avoid **memory leaks**, where objects are unintentionally held in memory even when they are no longer needed.
-   - **Tools like Android Studio Profiler** can be used to detect and fix memory leaks.
-
-4. **Low Memory Killer (LMK)**:
-   - When the device is low on memory, Android's **Low Memory Killer (LMK)** prioritizes which background apps to terminate to free up memory for active tasks.
-
-5. **Multitasking and Process Lifecycle**:
-   - Android manages memory by **pausing** or **terminating background apps** based on their **priority** (e.g., foreground, background, or cached processes).
-   - **Activity Lifecycle** management helps to pause or stop activities to conserve memory when not in use.
-
-By using these methods, Android ensures that apps run efficiently without overwhelming the device’s available memory.
+  Memory management in an operating system (OS) involves several key tasks to efficiently allocate, utilize, and deallocate memory resources. Here's an overview of how memory is managed in an OS:
+  
+  1. **Memory Allocation**: When a process is created or requests memory, the OS allocates memory space to the process. This allocation can happen through various mechanisms such as fixed partitioning, dynamic partitioning, or paging.
+  2. **Address Translation**: Modern operating systems use virtual memory to abstract physical memory addresses from processes. Each process sees its memory space as a contiguous block of addresses, known as virtual addresses. The OS is responsible for translating these virtual addresses into physical addresses, allowing processes to access physical memory transparently.
+  3. **Memory Protection**: The OS enforces memory protection to prevent processes from accessing memory locations that they shouldn't. This involves setting up memory access permissions (read, write, execute) for each memory page and trapping any attempts to access unauthorized memory.
+  4. **Memory Paging and Swapping**: Paging and swapping are techniques used by the OS to manage memory efficiently. Paging involves dividing physical memory into fixed-size blocks called pages. The OS maintains a page table to map virtual pages to physical pages. Swapping involves moving entire pages of memory between RAM and disk storage to free up physical memory when it's needed.
+  5. **Memory Reclamation**: When a process terminates or no longer requires certain memory resources, the OS deallocates the memory and returns it to the pool of available memory. This prevents memory leaks and ensures that memory is efficiently utilized.
+  6. **Memory Fragmentation**: The OS also manages memory fragmentation, which can occur when memory becomes fragmented into small, non-contiguous chunks over time. Fragmentation can impact memory allocation efficiency and overall system performance. Techniques such as memory compaction or defragmentation may be used to reduce fragmentation and optimize memory usage.
+  7. **Memory Monitoring and Optimization**: Operating systems often include tools and mechanisms for monitoring memory usage and performance. This may include memory usage statistics, memory leak detection, and memory profiling tools to help developers identify and address memory-related issues in applications.
+  
+  Overall, effective memory management is essential for maintaining system stability, performance, and resource utilization in an operating system. The OS employs various techniques and algorithms to manage memory efficiently and provide a reliable execution environment for applications running on the system.
   </details>
 - ### Write code having memory leaks?
   <details>
