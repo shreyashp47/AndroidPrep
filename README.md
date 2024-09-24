@@ -1,5 +1,7 @@
 # AndroidPrep (WIP)
 
+Thanks to https://github.com/AkshayAshokCode
+
 ## Content:
 - SOLID principle
 - [Design Patterns](#design-patterns)
