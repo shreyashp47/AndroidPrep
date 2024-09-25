@@ -1,5 +1,4 @@
-# Android-Interview-Questions-cheat-sheet (WIP)
-Note: I'm currently preparing this repo, and I'll restructure it once I have done with basic preperation
+# AndroidPrep 
 
 ## Content:
 - SOLID principle
