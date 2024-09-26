@@ -1,6 +1,5 @@
 # AndroidPrep 
 
-## Content:
 - SOLID principle
 - [Design Patterns](#design-patterns)
 - Architecture Patterns
